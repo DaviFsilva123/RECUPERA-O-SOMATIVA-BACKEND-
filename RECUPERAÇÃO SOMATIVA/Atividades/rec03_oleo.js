@@ -8,11 +8,11 @@
 
 const entrada = require('readline-sync');
 
-const nivelOleo = entrada.questionFloat("Insira o nível de óleo em porcentagem: ");
+const nivelOleo = entrada.questionFloat("Insira o nivel de óleo em porcentagem: ");
 
 if (nivelOleo >= 40 && nivelOleo <= 80){
-    console.log(`O nível de óleo ${nivelOleo}% está NORMAL`);
+    console.log(`O nivel de oleo ${nivelOleo}% esta NORMAL`);
 } else {
-    console.log(`O nível de óleo ${nivelOleo}% está INSPEÇÃO NECESSÁRIA`);
+    console.log(`O nivel de oleo ${nivelOleo}% está INSPECAO NECESSARIA`);
 }
 
